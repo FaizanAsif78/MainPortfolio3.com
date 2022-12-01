@@ -1,0 +1,482 @@
+* {
+    margin: 0em;
+    padding: 0em;
+
+}
+
+html {
+    font-size: 80%;
+}
+.navbars{
+    position: fixed;
+    display: none;
+}
+.or-navbar li{
+    transition: 0.8s ease;
+}
+.or-navbar li:hover{
+    text-decoration: underline;
+    font-size:1.2em;
+    margin: 0em 0.5em;
+    color: chartreuse;
+}
+
+
+/* Main home sections */
+.main-area {
+    background-color: rgb(0, 0, 0);
+    border-bottom-right-radius: 10em;
+    border-top-left-radius: 10em;
+    margin-top: 5em;
+}
+
+
+.main-area-sub1 {
+    padding: 13em 5em 5em 10em;
+}
+
+.main1-setting {
+    padding-left: 7em;
+    padding-right: 4em;
+}
+
+.main-area-sub2 {
+    padding: 13em 5em 5em 5em;
+}
+
+.main-area-sub2 img {
+    width: 25em;
+    height: 25em;
+    margin-left: 5em;
+    border-radius: 1em;
+    border: 1.5em double chartreuse;
+}
+
+.Social-icons ul {
+    margin-top: 3em;
+}
+
+.Social-icons ul li {
+    display: inline-block;
+    background-color: antiquewhite;
+    border-radius: 5em;
+    text-decoration: none;
+    margin-left: -2em;
+    margin-right: 3em;
+    transition: 0.8s ease;
+
+}
+
+.Social-icons ul li:hover {
+    background-color: transparent;
+    border: 1px solid chartreuse;
+
+}
+
+.Social-icons ul li a {
+    padding: 2em 1em;
+    font-size: 1.7em;
+    text-decoration: none;
+
+}
+
+.Social-icons ul li a i {
+    color: chartreuse;
+    transition: 0.8s ease;
+
+}
+
+
+.temp-nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: -2em;
+    margin-right: 3em;
+
+}
+
+.temp-nav ul li a {
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: start;
+    transition: 0.8s ease;
+}
+
+.temp-nav ul li a:hover {
+    background-color: aliceblue;
+    border-radius: 0.2em;
+    padding: 0.6em;
+    color: black;
+}
+
+.temp-nav ul li a {
+    color: chartreuse;
+}
+
+.main1-setting h6 {
+    color: rgb(160, 250, 69);
+    font-weight: 200;
+}
+
+.main1-setting h1 {
+    font-size: 4em;
+    color: chartreuse;
+}
+
+.main1-setting p {
+    color: rgb(160, 250, 69);
+    font-weight: 200;
+    margin-top: 3em;
+}
+
+
+
+
+/*****  About section  Section *****/
+.about-us {
+    margin-top: 10em;
+}
+
+.about-sestion {
+    background-color: aliceblue;
+    padding: 4em 0em;
+}
+
+.about-m-p-s h1 {
+    text-align: center;
+    margin: 1em 0em;
+}
+
+.about-m-p-s {
+    padding-left: 7em;
+    margin-right: 4em;
+}
+
+.about-sestion-sub2 img {
+    width: 30em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+/***** About section End Section *****/
+/***** Service Section start *****/
+.service {
+    margin-top: 5em;
+}
+
+.service-sections1 {
+    background-color: rgb(240, 240, 240);
+
+    padding: 0em 5em;
+}
+
+.service-sections2 {
+    background-color: rgb(240, 240, 240);
+    padding: 0em 5em;
+}
+
+.service-sections1 h1 {
+    padding: 2em 0em;
+}
+
+.service-box1 {
+    padding: 3em;
+}
+
+.servive-sub1 {
+    background-color: rgb(255, 255, 255);
+    padding: 3em;
+    border-radius: 0.5em;
+    transition: 0.8s ease;
+}
+
+.servive-sub1:hover {
+    background-color: chartreuse;
+
+}
+
+.servive-sub1 i {
+    font-size: 5em;
+}
+
+.servive-sub1 h3 {
+    margin: 1em 0em;
+}
+
+/***** Service End Section *****/
+/***** Testimonial Section *****/
+
+
+.testimonial-sec1 {
+    background-color: black;
+}
+
+.testimonial-sec2 {
+    background-color: black;
+    padding-bottom: 6em;
+}
+
+.testimonial-sec1 h1 {
+    margin: 2em 0em;
+    color: white;
+}
+
+/* Swipper Css start */
+
+
+.swiper {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2em;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2em;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 3em;
+    height: 3em;
+    border-radius: 5em;
+    margin: 3em 0em 0em 2em;
+}
+
+.swiper-button-next {
+    color: chartreuse;
+}
+
+/***** Testimonial End Section *****/
+
+
+/***** Portfolio Section *****/
+.portfolio {
+    margin-top: 5em;
+}
+
+.btncss ul li {
+    list-style: none;
+    margin: 0em 1.5em;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid chartreuse;
+}
+
+.btncss ul li button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid chartreuse;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    padding: 0.3em;
+    transition: 0.8s ease;
+}
+
+.btncss ul li button:hover {
+    background-color: chartreuse;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.portfolio-sub img {
+    height: 15em;
+    width: 21em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.portfolio-sec {
+    padding: 2em;
+}
+
+.portfolio-sub {
+    background-color: rgb(241, 241, 241);
+    border: 1px solid chartreuse;
+    border-radius: 2em;
+    transition: 0.8s ease;
+    width: fit-content;
+}
+
+.portfolio-sub:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.btnsec {
+    margin-bottom: 2em;
+    padding-left: 2em;
+}
+
+.portfolio-name {
+    margin: 0em 1em;
+}
+
+.portfolio-button button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid chartreuse;
+    transition: 0.8s ease;
+}
+
+.portfolio-button button:hover {
+    background-color: chartreuse;
+    border-radius: 0.3em;
+    padding: 0.3em;
+
+}
+
+/***** Portfolio End Section *****/
+/*****  contactus Section *****/
+.contact-sec1 h6 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+/***** contactus  End Section *****/
+/***** Footer Section *****/
+.footerrow {
+    padding: 10em;
+    background-color: #000000;
+    border-bottom-left-radius: 10em;
+    border-top-right-radius: 10em;
+}
+
+.footer-sec1 h1 {
+    color: white;
+}
+
+.footer-sec1 ul li {
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+
+}
+
+.footer-sec1 ul {
+    margin-left: -2em;
+    margin-top: 2em;
+}
+
+.footer-sec1 ul li a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-size: 1.2em;
+    transition: 0.8s ease;
+}
+
+.footer-sec1 ul li a:hover {
+    color: chartreuse;
+    font-size: 1.5em;
+}
+
+.footer-sec1 h6 {
+    font-size: 1.2em;
+    color: rgb(83, 83, 83);
+    margin-top: 3em;
+}
+
+.footer-icons ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.footer-icons ul li i {
+    padding: 0.2em;
+    color: chartreuse;
+    font-size: 2em;
+}
+
+.footer-sec3 i {
+    margin-right: 1em;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.footer-sec3 h5 {
+    color: #636363;
+    margin-bottom: 3em;
+}
+
+/***** Footer End Section *****/
+
+
+
+
+
+
+
+
+
+
+/***** Responsiveness Code Section *****/
+@media (max-width:991px) {
+    .Social-icons ul li {
+        background-color: transparent;
+        margin-left: -5em;
+        margin-right: 2em;
+    }
+    .diplaysetting{
+        padding-left: 3.5em;
+    }
+}
+
+@media (max-width:767px) {
+    .main-area-sub2 img {
+        margin-left: 6em;
+        width: 20em;
+        height: 20em;
+    }
+
+    .about-sestion-sub2 img {
+        width: 25em;
+        height: 25em;
+    }
+}
+    @media (max-width:576px) {
+        .main-area-sub2 {
+            display: none;
+        }
+
+        .about-sestion-sub2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper {
+
+            width: 360px;
+        }
+
+        .footerrow {
+            padding: 2em;
+        }
+
+        .btncss ul li {
+            margin: 0em 0.2em;
+        }
+
+        .main1-setting h1 {
+            font-size: 3em;
+        }
+
+        .temp-nav ul li {
+            margin-left: -2em;
+            margin-right: 7em;
+            margin-bottom: 1em;
+        }
+        .diplaysetting{
+            padding-left: 7.5em;
+        }
+    }
+
+    /***** Responsiveness Code End Section *****/
